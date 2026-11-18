@@ -35,7 +35,7 @@ public class ProductController {
 
     @GetMapping("fun2")
     public String myfun2(){
-        return "Hello there! Welcome to fun2222";
+        return "Hello there! Welcome to fun2";
     }
 
 }
