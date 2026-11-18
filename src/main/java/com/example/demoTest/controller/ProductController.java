@@ -28,8 +28,14 @@ public class ProductController {
         return ResponseEntity.status(HttpStatus.CREATED).body(savedProduct);
     }
 
-    @GetMapping
+    @GetMapping("fun")
     public String myfun(){
         return "Hello there!";
     }
+
+    @GetMapping("fun2")
+    public String myfun2(){
+        return "Hello there! Welcome to fun2!";
+    }
+
 }
